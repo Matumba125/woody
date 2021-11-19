@@ -1,0 +1,46 @@
+.contentWrapper{
+    width: 50%;
+    background: url("../../../common/img/services.jpg") center;
+    background-size: cover;
+    padding: 150px 80px !important;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.servicesWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.title{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.arrow{
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.info{
+    color: #FFFFFF;
+    text-align: right;
+}
+
+@media screen and (max-width: 1035px){
+    .contentWrapper{
+        width: 100%;
+    }
+}

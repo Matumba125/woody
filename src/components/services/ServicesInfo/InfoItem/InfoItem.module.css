@@ -1,0 +1,40 @@
+.infoWrapper{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.description{
+    margin-left: 70px;
+}
+
+.title{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1035px){
+    .infoWrapper{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .icon{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .description{
+        text-align: center;
+        margin-left: 0;
+    }
+
+}

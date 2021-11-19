@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Twitter.module.css'
-import TwitterDescription from "./Description/TwitterDescription";
-import TwitterLink from "./Link/TwitterLink";
+import TwitterDescription from "./TwitterDescription/TwitterDescription";
+import TwitterLink from "./TwitterLink/TwitterLink";
 
 const Twitter = () => {
     return (
