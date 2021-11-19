@@ -1,12 +1,12 @@
 .contentWrapper{
     width: 50%;
-    background: url("../../../common/img/team.jpg") center;
+    background: url("../../../common/img/contact.jpg") center;
     background-size: cover;
     padding: 150px 80px !important;
     height: 600px;
     box-sizing: border-box;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 
 }
@@ -14,7 +14,7 @@
 .servicesWrapper{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .title{
@@ -23,7 +23,7 @@
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 15px;
-    text-align: left;
+    text-align: right;
 }
 
 .arrow{
@@ -31,12 +31,12 @@
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
-    text-align: left;
+    text-align: right;
 }
 
 .info{
     color: #FFFFFF;
-    text-align: left;
+    text-align: right;
 }
 
 @media screen and (max-width: 1035px){

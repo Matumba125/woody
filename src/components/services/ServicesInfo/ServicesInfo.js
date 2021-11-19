@@ -10,13 +10,13 @@ const ServicesInfo = () => {
     return (
         <div className={style.contentWrapper}>
             <div className={style.row}>
-                <InfoItem icon={faLaptop} title={'INNOVATIVE IDEAS'}/>
-                <InfoItem icon={faCode} title={'CLEAN CODE'}/>
+                <InfoItem key={1} icon={faLaptop} title={'INNOVATIVE IDEAS'}/>
+                <InfoItem key={2} icon={faCode} title={'CLEAN CODE'}/>
             </div>
             <div className={style.separator}/>
             <div className={style.row}>
-                <InfoItem icon={faBullhorn} title={'24/7 SUPPORT'}/>
-                <InfoItem icon={faHtml5} title={'HTML5'}/>
+                <InfoItem key={3} icon={faBullhorn} title={'24/7 SUPPORT'}/>
+                <InfoItem key={4} icon={faHtml5} title={'HTML5'}/>
             </div>
         </div>
     );
