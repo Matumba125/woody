@@ -1,33 +1,28 @@
 {
   "files": {
-    "main.css": "/woody/static/css/main.96043115.chunk.css",
-    "main.js": "/woody/static/js/main.f1f6a0e0.chunk.js",
-    "main.js.map": "/woody/static/js/main.f1f6a0e0.chunk.js.map",
-    "runtime-main.js": "/woody/static/js/runtime-main.8197284f.js",
-    "runtime-main.js.map": "/woody/static/js/runtime-main.8197284f.js.map",
-    "static/js/2.2e032832.chunk.js": "/woody/static/js/2.2e032832.chunk.js",
-    "static/js/2.2e032832.chunk.js.map": "/woody/static/js/2.2e032832.chunk.js.map",
-    "static/js/3.5f591588.chunk.js": "/woody/static/js/3.5f591588.chunk.js",
-    "static/js/3.5f591588.chunk.js.map": "/woody/static/js/3.5f591588.chunk.js.map",
+    "main.css": "/woody/static/css/main.b258bab6.chunk.css",
+    "main.js": "/woody/static/js/main.237e99a1.chunk.js",
+    "main.js.map": "/woody/static/js/main.237e99a1.chunk.js.map",
+    "runtime-main.js": "/woody/static/js/runtime-main.1741cdcf.js",
+    "runtime-main.js.map": "/woody/static/js/runtime-main.1741cdcf.js.map",
+    "static/js/2.b141bead.chunk.js": "/woody/static/js/2.b141bead.chunk.js",
+    "static/js/2.b141bead.chunk.js.map": "/woody/static/js/2.b141bead.chunk.js.map",
+    "static/js/3.e02f4bbc.chunk.js": "/woody/static/js/3.e02f4bbc.chunk.js",
+    "static/js/3.e02f4bbc.chunk.js.map": "/woody/static/js/3.e02f4bbc.chunk.js.map",
     "index.html": "/woody/index.html",
-    "static/css/main.96043115.chunk.css.map": "/woody/static/css/main.96043115.chunk.css.map",
-    "static/js/2.2e032832.chunk.js.LICENSE.txt": "/woody/static/js/2.2e032832.chunk.js.LICENSE.txt",
+    "static/css/main.b258bab6.chunk.css.map": "/woody/static/css/main.b258bab6.chunk.css.map",
+    "static/js/2.b141bead.chunk.js.LICENSE.txt": "/woody/static/js/2.b141bead.chunk.js.LICENSE.txt",
     "static/media/1.66182ae5.png": "/woody/static/media/1.66182ae5.png",
     "static/media/2.de04c601.png": "/woody/static/media/2.de04c601.png",
     "static/media/3.187b0923.png": "/woody/static/media/3.187b0923.png",
     "static/media/4.fa18e019.png": "/woody/static/media/4.fa18e019.png",
-    "static/media/ContactsInfo.module.css": "/woody/static/media/contact.a711464d.jpg",
     "static/media/Preview.module.css": "/woody/static/media/headerBack.f8455506.jpg",
-    "static/media/logo.1d20af5b.png": "/woody/static/media/logo.1d20af5b.png",
-    "static/media/ServicesDescription.module.css": "/woody/static/media/services.51200fbb.jpg",
-    "static/media/SubscribeUs.module.css": "/woody/static/media/subscribe.4f1d2728.jpg",
-    "static/media/TeamDescription.module.css": "/woody/static/media/team.5f8c2b4e.jpg",
-    "static/media/TwitterLink.module.css": "/woody/static/media/twitter.8aa2410a.jpg"
+    "static/media/logo.1d20af5b.png": "/woody/static/media/logo.1d20af5b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8197284f.js",
-    "static/js/2.2e032832.chunk.js",
-    "static/css/main.96043115.chunk.css",
-    "static/js/main.f1f6a0e0.chunk.js"
+    "static/js/runtime-main.1741cdcf.js",
+    "static/js/2.b141bead.chunk.js",
+    "static/css/main.b258bab6.chunk.css",
+    "static/js/main.237e99a1.chunk.js"
   ]
 }
