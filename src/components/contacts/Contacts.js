@@ -1,11 +1,14 @@
 import React from 'react';
 import ContactsInfo from "./ContactsInfo/ContactsInfo";
+import ContactsForm from "./ContactsForm/ContactsForm";
+import style from './Contacts.module.css'
 
 const Contacts = () => {
+
     return (
-        <div>
+        <div className={style.contentWrapper}>
             <ContactsInfo/>
-            <Contacts/>
+            <ContactsForm/>
         </div>
     );
 };

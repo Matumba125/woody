@@ -1,0 +1,19 @@
+.contentWrapper{
+    width: 100%;
+    display: flex;
+}
+
+.map{
+    width: 50%;
+    height: 600px;
+    border: 0;
+}
+
+@media screen and (max-width: 1035px){
+    .contentWrapper{
+        flex-direction: column-reverse;
+    }
+    .map{
+        width: 100%;
+    }
+}

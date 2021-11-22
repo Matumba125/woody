@@ -1,0 +1,76 @@
+.contentWrapper{
+    width: 50%;
+    background: url("../../../common/img/subscribe.jpg") center;
+    background-size: cover;
+    padding: 150px 80px !important;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2{
+ color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.header span{
+    margin: 12px auto;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.inputWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.emailInput{
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #FFFFFF;
+    height: 45px;
+    width: 45%;
+    color: #FFFFFF;
+    word-spacing: 1px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 12px;
+}
+
+.emailInput::placeholder{
+    color: #FFFFFF;
+}
+
+.submitBtn{
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    width: 15%;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    font-weight: 600;
+    height: 51px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1035px){
+    .contentWrapper{
+        width: 100%;
+    }
+}

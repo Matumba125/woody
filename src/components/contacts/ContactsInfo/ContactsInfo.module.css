@@ -8,10 +8,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
-.servicesWrapper{
+.contactsWrapper{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -36,6 +35,35 @@
 
 .info{
     color: #FFFFFF;
+    text-align: right;
+}
+
+.dataWrapper{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dataItem{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 2px;
+}
+
+.dataItem h2{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.dataItem span{
+    width: 85%;
+    font-size: 14px;
+    color: #FFFFFF;
+    word-break: break-all;
+
     text-align: right;
 }
 
