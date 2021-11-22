@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/woody/static/css/main.384c28ae.chunk.css",
+    "main.css": "/woody/static/css/main.96043115.chunk.css",
     "main.js": "/woody/static/js/main.f1f6a0e0.chunk.js",
     "main.js.map": "/woody/static/js/main.f1f6a0e0.chunk.js.map",
     "runtime-main.js": "/woody/static/js/runtime-main.8197284f.js",
@@ -10,7 +10,7 @@
     "static/js/3.5f591588.chunk.js": "/woody/static/js/3.5f591588.chunk.js",
     "static/js/3.5f591588.chunk.js.map": "/woody/static/js/3.5f591588.chunk.js.map",
     "index.html": "/woody/index.html",
-    "static/css/main.384c28ae.chunk.css.map": "/woody/static/css/main.384c28ae.chunk.css.map",
+    "static/css/main.96043115.chunk.css.map": "/woody/static/css/main.96043115.chunk.css.map",
     "static/js/2.2e032832.chunk.js.LICENSE.txt": "/woody/static/js/2.2e032832.chunk.js.LICENSE.txt",
     "static/media/1.66182ae5.png": "/woody/static/media/1.66182ae5.png",
     "static/media/2.de04c601.png": "/woody/static/media/2.de04c601.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.8197284f.js",
     "static/js/2.2e032832.chunk.js",
-    "static/css/main.384c28ae.chunk.css",
+    "static/css/main.96043115.chunk.css",
     "static/js/main.f1f6a0e0.chunk.js"
   ]
 }
