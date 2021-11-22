@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCogs} from "@fortawesome/free-solid-svg-icons";
 import {Arrow, TitleWrapper, Wrapper} from "../../../common/styles";
 import styled from "styled-components";
+import bg from '../../../common/img/services.jpg'
 
 const Info = styled.p`
   color: #FFFFFF;
@@ -11,7 +12,7 @@ const Info = styled.p`
 
 const ServicesDescription = () => {
     return (
-        <Wrapper background={process.env.PUBLIC_URL + 'assets/services.jpg'} justifyContent={'center'}>
+        <Wrapper background={bg} justifyContent={'center'}>
             <TitleWrapper alignItems={'flex-end'}>
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faCogs}/>
                 <h2>SERVICES</h2>

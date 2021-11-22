@@ -3,10 +3,11 @@ import style from "./ContactsInfo.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faMapMarkerAlt, faPaperPlane, faPhone} from "@fortawesome/free-solid-svg-icons";
 import {Arrow, Wrapper} from "../../../common/styles";
+import bg from '../../../common/img/contact.jpg'
 
 const ContactsInfo = () => {
     return (
-        <Wrapper background={process.env.PUBLIC_URL + 'assets/contact.jpg'} justifyContent={'flex-end'}>
+        <Wrapper background={bg} justifyContent={'flex-end'}>
             <div className={style.contactsWrapper}>
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faEnvelope}/>
                 <h2 className={style.title}>GET IN TOUCH</h2>

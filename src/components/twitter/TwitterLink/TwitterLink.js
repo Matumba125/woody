@@ -3,6 +3,7 @@ import style from './TwitterLink.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import {Separator, TitleWrapper, Wrapper} from "../../../common/styles";
+import bg from '../../../common/img/twitter.jpg'
 
 const TwitterLink = () => {
 
@@ -22,7 +23,7 @@ const TwitterLink = () => {
     }, [twit])
 
     return (
-        <Wrapper background={process.env.PUBLIC_URL + 'assets/twitter.jpg'} justifyContent={'center'}>
+        <Wrapper background={bg} justifyContent={'center'}>
             <TitleWrapper alignItems={'center'}>
             <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faTwitter}/>
                 <h2>OUR TWITTER</h2>

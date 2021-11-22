@@ -3,12 +3,12 @@ import style from "./TeamDescription.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUsers} from "@fortawesome/free-solid-svg-icons";
 import {Arrow, TitleWrapper, Wrapper} from "../../../common/styles";
-
+import bg from '../../../common/img/team.jpg'
 
 
 const TeamDescription = () => {
     return (
-        <Wrapper background={process.env.PUBLIC_URL + 'assets/team.jpg'} justifyContent={'center'}>
+        <Wrapper background={bg} justifyContent={'center'}>
             <TitleWrapper alignItems={'flex-start'}>
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faUsers}/>
                 <h2>MEET OUR TEAM</h2>

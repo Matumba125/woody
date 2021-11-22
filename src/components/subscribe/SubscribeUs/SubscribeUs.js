@@ -3,12 +3,13 @@ import style from './SubscribeUs.module.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import {Separator, TitleWrapper, Wrapper} from "../../../common/styles";
+import bg from '../../../common/img/subscribe.jpg'
 
 
 
 const SubscribeUs = () => {
     return (
-        <Wrapper background={process.env.PUBLIC_URL + 'assets/subscribe.jpg'} justifyContent={'center'}>
+        <Wrapper background={bg} justifyContent={'center'}>
             <TitleWrapper alignItems={'center'}>
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faPaperPlane}/>
                 <h2>SUBSCRIBE</h2>
