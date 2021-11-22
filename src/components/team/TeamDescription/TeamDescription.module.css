@@ -1,16 +1,3 @@
-.contentWrapper{
-    width: 50%;
-    background: url("../../../common/img/team.jpg") center;
-    background-size: cover;
-    padding: 150px 80px !important;
-    height: 600px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-}
-
 .servicesWrapper{
     display: flex;
     flex-direction: column;
@@ -37,11 +24,4 @@
 .info{
     color: #FFFFFF;
     text-align: left;
-}
-
-@media screen and (max-width: 1035px){
-    .contentWrapper{
-        width: 100%;
-        padding: 150px 20px !important;
-    }
 }

@@ -2,14 +2,15 @@ import React from 'react';
 import style from "./ContactsInfo.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faMapMarkerAlt, faPaperPlane, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {Arrow, Wrapper} from "../../../common/styles";
 
 const ContactsInfo = () => {
     return (
-        <div className={style.contentWrapper}>
+        <Wrapper background={process.env.PUBLIC_URL + 'assets/contact.jpg'} justifyContent={'flex-end'}>
             <div className={style.contactsWrapper}>
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faEnvelope}/>
                 <h2 className={style.title}>GET IN TOUCH</h2>
-                <span className={style.arrow}>--></span>
+                <Arrow direction={'right'}>--></Arrow>
                 <p className={style.info}>
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
                     <br/>
@@ -33,7 +34,7 @@ const ContactsInfo = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Wrapper>
     );
 };
 

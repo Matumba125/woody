@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import style from './TwitterLink.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {Separator, TitleWrapper, Wrapper} from "../../../common/styles";
 
 const TwitterLink = () => {
 
@@ -21,16 +22,16 @@ const TwitterLink = () => {
     }, [twit])
 
     return (
-        <div className={style.contentWrapper}>
-            <div className={style.linkWrapper}>
+        <Wrapper background={process.env.PUBLIC_URL + 'assets/twitter.jpg'} justifyContent={'center'}>
+            <TitleWrapper alignItems={'center'}>
             <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faTwitter}/>
-                <h2 className={style.title}>OUR TWITTER</h2>
-                <span className={style.separator}>{`//`}</span>
+                <h2>OUR TWITTER</h2>
+                <Separator>{`//`}</Separator>
                 <div className={style.twitWrapper}>
                     {twit}
                 </div>
-            </div>
-        </div>
+            </TitleWrapper>
+        </Wrapper>
     );
 };
 
