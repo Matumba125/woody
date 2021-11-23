@@ -61,19 +61,19 @@ const ContactsForm = () => {
             const errors = {};
 
             if (!values.email) {
-                errors.email = 'Required';
+                errors.email = 'Please enter your email';
             } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
                 errors.email = 'Invalid email address';
             }
 
             if (!values.name) {
-                errors.name = 'Required';
+                errors.name = 'Please enter your name';
             } else if (!/^[A-Z0-9._%+-]{3,}$/i.test(values.name)) {
                 errors.name = 'Name must be longer than 2 symbols';
             }
 
             if (!values.message) {
-                errors.message = 'Type some message';
+                errors.message = 'Please enter your message';
             }
 
             return errors;
