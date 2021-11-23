@@ -1,12 +1,21 @@
 import React from 'react';
-import style from './TwitterDescription.module.css'
+import {Wrapper} from "../../../common/styles";
+import styled from "styled-components";
+
+const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  p {
+    word-break: break-word;
+  }
+`
 
 const TwitterDescription = () => {
     return (
-        <div className={style.contentWrapper}>
-            <div className={style.textWrapper}>
-                <h4 className={style.title}>WHOSE EVENING. SPIRIT SUBDUE TWO DON’T. LIVING, I DIVIDED WAS BE EVERY
-                    HAD…</h4>
+        <Wrapper justifyContent={'center'}>
+            <Text>
+                <h4>WHOSE EVENING. SPIRIT SUBDUE TWO DON’T. LIVING, I DIVIDED WAS BE EVERY HAD…</h4>
                 <p>
                     Created, likeness bring which in stars herb a is give you’ll it life you’ll.
                     Whose evening. Spirit subdue two don’t.
@@ -22,8 +31,8 @@ const TwitterDescription = () => {
                     Have green. Cattle. Called i that waters dry one said firmament his after their night.
                     Likeness.
                 </p>
-            </div>
-        </div>
+            </Text>
+        </Wrapper>
     );
 };
 

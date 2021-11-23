@@ -1,15 +1,15 @@
 import React from 'react';
 import ContactsInfo from "./ContactsInfo/ContactsInfo";
 import ContactsForm from "./ContactsForm/ContactsForm";
-import style from './Contacts.module.css'
+import {SectionWrapper} from "../../common/styles";
 
 const Contacts = () => {
 
     return (
-        <div className={style.contentWrapper}>
+        <SectionWrapper mediaDirection={'column'}>
             <ContactsInfo/>
             <ContactsForm/>
-        </div>
+        </SectionWrapper>
     );
 };
 

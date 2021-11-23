@@ -1,14 +1,14 @@
 import React from 'react';
-import style from "./Team.module.css";
 import TeamMembers from "./TeamMembers/TeamMembers";
 import TeamDescription from "./TeamDescription/TeamDescription";
+import {SectionWrapper} from "../../common/styles";
 
 const Team = () => {
     return (
-        <div className={style.contentWrapper}>
+        <SectionWrapper mediaDirection={'column-reverse'}>
             <TeamMembers/>
             <TeamDescription/>
-        </div>
+        </SectionWrapper>
     );
 };
 

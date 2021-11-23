@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const SectionWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  @media screen and (max-width: 1035px){
+    flex-direction: ${props => props.mediaDirection};
+  }
+`
+
 export const Wrapper = styled.div`
   width: 50%;
   background: url(${props => props.background}) center;

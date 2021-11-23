@@ -1,14 +1,14 @@
 import React from 'react';
-import style from "./Services.module.css";
 import ServicesDescription from "./ServicesDescription/ServicesDescription";
 import ServicesInfo from "./ServicesInfo/ServicesInfo";
+import {SectionWrapper} from "../../common/styles";
 
 const Services = () => {
     return (
-        <div className={style.contentWrapper}>
+        <SectionWrapper mediaDirection={'column'}>
             <ServicesDescription/>
             <ServicesInfo/>
-        </div>
+        </SectionWrapper>
     );
 };
 

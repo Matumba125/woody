@@ -1,14 +1,14 @@
 import React from 'react';
-import style from './Twitter.module.css'
 import TwitterDescription from "./TwitterDescription/TwitterDescription";
 import TwitterLink from "./TwitterLink/TwitterLink";
+import {SectionWrapper} from "../../common/styles";
 
 const Twitter = () => {
     return (
-        <div className={style.contentWrapper}>
+        <SectionWrapper mediaDirection={'column-reverse'}>
             <TwitterDescription/>
             <TwitterLink/>
-        </div>
+        </SectionWrapper>
     );
 };
 

@@ -1,9 +1,14 @@
 import React from 'react';
-import style from "./TeamDescription.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUsers} from "@fortawesome/free-solid-svg-icons";
 import {Arrow, TitleWrapper, Wrapper} from "../../../common/styles";
 import bg from '../../../common/img/team.jpg'
+import styled from 'styled-components'
+
+const Info = styled.p`
+  color: #FFFFFF;
+  text-align: left;
+`
 
 
 const TeamDescription = () => {
@@ -13,11 +18,11 @@ const TeamDescription = () => {
                 <FontAwesomeIcon size={'2x'} color={'#fff'} icon={faUsers}/>
                 <h2>MEET OUR TEAM</h2>
                 <Arrow direction={'left'}>{'<--'}</Arrow>
-                <p className={style.info}>
+                <Info>
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
                     <br/>
                     <span>incididunt ut labore et dolore magna aliqua.</span>
-                </p>
+                </Info>
             </TitleWrapper>
         </Wrapper>
     );
