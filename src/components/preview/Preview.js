@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Countdown from "./countdown/Countdown";
 import logo from '../../common/img/logo.png'
 import styled from "styled-components";
 import bg from '../../common/img/headerBack.jpg'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
+import './Preview.css'
 
 const HeaderWrapper = styled.header`
   width: 100%;
@@ -19,6 +22,7 @@ const Header = styled.div`
   min-height: 40%;
   display: flex;
   flex-direction: column;
+  position: relative;
   @media screen and (max-width: 600px) {
     width: 90%;
     align-items: center;
@@ -79,7 +83,66 @@ const BackDiv = styled.div`
   }
 `
 
+const ScrollBtn = styled.div`
+  position: absolute;
+  bottom: -130px;
+  margin-left: 18px;
+
+  div {
+    margin-left: -20px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    animation: shake 2s linear infinite;
+    @keyframes shake {
+      0%, 90% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      10%, 80% {
+        transform: translate3d(0, -2px, 0);
+      }
+
+      20%, 70% {
+        transform: translate3d(0, -4px, 0);
+      }
+
+      30%, 60% {
+        transform: translate3d(0, -6px, 0);
+      }
+
+      40%, 50% {
+        transform: translate3d(0, -8px, 0);
+      }
+    }
+
+    span {
+      position: absolute;
+      left: -16px;
+      bottom: 40px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 16px;
+      display: block;
+      color: #fff;
+      transform: rotate(-90deg);
+    }
+  }
+`
 const Preview = () => {
+
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 600)
+
+    useEffect(() =>{
+        window.addEventListener('resize', ()=>{
+            if(window.innerWidth < 600){
+                setIsMobile(true)
+            }else {
+                setIsMobile(false)
+            }
+        })
+    }, [])
+
     return (
         <HeaderWrapper>
             <Header>
@@ -91,6 +154,14 @@ const Preview = () => {
                     You will love Woody as much as we do. It will morph perfectly on your needs!
                 </p>
                 <Countdown/>
+                { !isMobile && <ScrollBtn>
+                    <div>
+                        <a href={'#twitter'}>
+                            <span>scroll</span>
+                            <FontAwesomeIcon size={'1x'} icon={faChevronDown} color={'#fff'}/>
+                        </a>
+                    </div>
+                </ScrollBtn>}
             </Header>
             <BackDiv background={bg}/>
         </HeaderWrapper>

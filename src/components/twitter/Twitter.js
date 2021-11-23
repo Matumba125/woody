@@ -5,7 +5,7 @@ import {SectionWrapper} from "../../common/styles";
 
 const Twitter = () => {
     return (
-        <SectionWrapper mediaDirection={'column-reverse'}>
+        <SectionWrapper id={'twitter'} mediaDirection={'column-reverse'}>
             <TwitterDescription/>
             <TwitterLink/>
         </SectionWrapper>

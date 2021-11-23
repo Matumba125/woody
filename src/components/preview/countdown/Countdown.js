@@ -14,6 +14,9 @@ const CountdownWrapper = styled.div`
   z-index: 2;
   margin-left: -35px;
   flex-wrap: wrap;
+  @media screen and (max-width: 700px) {
+    justify-content: center;
+  }
 `
 
 const TimeItem = styled.div`
@@ -32,6 +35,8 @@ const TimeItem = styled.div`
     font-weight: 300;
   }
 `
+
+
 
 const Countdown = () => {
 
@@ -64,6 +69,7 @@ const Countdown = () => {
 
     return (
         <CountdownWrapper>
+
             <TimeItem>
                 {timeLeft.days}
                 <span>days</span>
